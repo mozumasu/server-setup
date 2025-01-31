@@ -48,6 +48,10 @@ alias sfrpsstart="sudo frps -c /etc/frp/frps.toml"
 alias pfrps='ps -aux | grep pfrp'
 alias vfrps='vim /etc/frp/frps.toml'
 
+# bind
+bind '"\C-n": history-search-forward'
+bind '"\C-p": history-search-backward'
+
 # --------------
 # history
 # --------------
